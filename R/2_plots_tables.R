@@ -1387,7 +1387,7 @@ plot_decomp <-
   }
 
 ggsave(
-  filename = 'FIGS/fig4.png',
+  filename = 'OUTPUTS/FIGS/fig4.png',
   dpi = 300,
   width = 10,
   height = 5,
