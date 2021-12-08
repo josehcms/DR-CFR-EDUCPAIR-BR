@@ -1,1 +1,5 @@
-# DR-CFR-EDUCPAIR-BR
+# Educational Pairings and Fertility Decline in Brazil: An Analysis Through Cohort Fertility
+
+This repository contains the replication materials of the paper recently published in Demographic Research. This work was the result of my master thesis research and it was supervised by [Dr Everton Lima](https://www.ifch.unicamp.br/ifch/colaboradores/demografia/625/everton-emanuel-campos-de-lima) and co-supervised by [Dr Maria Coleta](http://lattes.cnpq.br/3454564839423365). It was funded by the [Brazilian National Council for scientific and Technological Development (CNPq)](https://www.gov.br/cnpq/pt-br).
+
+The R scripts used to read, process, analyse and visualize the IPUMS data of Brazilian censuses of 1970, 1980, 1991, 2000 and 2010 are at the R directory. The DATA directory contains the raw IPUMS data sets (in IPUMS directory) and the processed data sets (in PROCESSED directory). Finally, the figures and tables of the paper are posted in OUTPUTS/FIGS and OUTPUTS/TABLES directories, respectively. 
