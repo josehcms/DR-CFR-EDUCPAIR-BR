@@ -2,7 +2,7 @@
 ### DR Paper:  Educational Pairings and Fertility Decline in Brazil
 ### R Script 2: data analysis and visualization
 ### Author: Jose H C Monteiro da Silva
-### Last Update: 2021-12-08
+### Last Update: 2022-01-04
 ################################################################################
 
 ### 1. Housekeeping and package loading #---------------------------------------
