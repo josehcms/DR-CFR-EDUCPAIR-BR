@@ -44,7 +44,7 @@ match_func <-
           SEX = SEX %>% paste0 %>% as.numeric,
           MARST = MARST %>% paste0 %>% as.numeric,
           CHBORN = CHBORN %>% paste0 %>% as.numeric %>% floor,
-          EDATTAIN,
+          EDATTAIN = EDATTAIN %>% paste0 %>% as.numeric,
           PERWT
         ) ]
 
@@ -190,16 +190,16 @@ allwomen_func <-
       copy %>% 
       .[,
         list(
-          REGNBR  = reg_dict[ paste0( substr( GEO1_BR, 4, 4 ) ) ],
+          REGNBR   = reg_dict[ paste0( substr( GEO1_BR, 4, 4 ) ) ],
           YEAR,
           SERIAL,
-          RELATE  = RELATE %>% paste0 %>% as.numeric,
-          RELATED = RELATED %>% paste0 %>% as.numeric,
-          AGE = AGE %>% paste0 %>% as.numeric %>% floor,
-          SEX = SEX %>% paste0 %>% as.numeric,
-          MARST = MARST %>% paste0 %>% as.numeric,
-          CHBORN = CHBORN %>% paste0 %>% as.numeric %>% floor,
-          EDATTAIN,
+          RELATE   = RELATE %>% paste0 %>% as.numeric,
+          RELATED  = RELATED %>% paste0 %>% as.numeric,
+          AGE      = AGE %>% paste0 %>% as.numeric %>% floor,
+          SEX      = SEX %>% paste0 %>% as.numeric,
+          MARST    = MARST %>% paste0 %>% as.numeric,
+          CHBORN   = CHBORN %>% paste0 %>% as.numeric %>% floor,
+          EDATTAIN = EDATTAIN %>% paste0 %>% as.numeric,
           PERWT
         ) ] %>%
       .[ AGE %in% seq( 40, 69 ) & SEX == 2,
