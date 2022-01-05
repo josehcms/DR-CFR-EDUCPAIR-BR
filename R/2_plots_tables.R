@@ -55,9 +55,9 @@ assort_dat <-
                 list(
                   Region,
                   PairingType = ifelse( EducMale > EducFemale,
-                                        'Hipergamy',
+                                        'Hypergamy',
                                         ifelse( EducFemale > EducMale,
-                                                'Hipogamy',
+                                                'Hypogamy',
                                                 'Homogamy' ) ),
                   FemCohort5 = as.numeric( paste0( FemCohort5 ) ),
                   SampWeight
